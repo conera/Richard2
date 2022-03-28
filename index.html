@@ -9,10 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="shortcut icon" href="images/icon-page.png">
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="https://resources/demos/style.css">
+
+
     <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Richard</title>
@@ -25,27 +29,87 @@
     <p>Our application is not ready to use yet. We will notify you when it is up and running.</p>
 </div>
 
-<header class="header">
+	<header class="cd-header">
     <div class="container">
         <div class="d_flex">
+            <div class="logo-wrap">
             <a href="#"><img src="images/logo_richard.svg" alt="logo"></a>
+            </div>
+
+        <nav>
             <ul class="nav_menu">
                 <li>
-                    <a href="#">About</a>
+                    <a href="#adventages_section">About</a>
                 </li>
                 <li>
-                    <a href="#">Features</a>
+                    <a href="#features_section">Features</a>
                 </li>
                 <li>
-                    <a href="#">How to Use</a>
+                    <a href="#feedback_section">How to Use</a>
                 </li>
                 <li>
-                    <a href="#">Download</a>
+                    <a href="#section_download">Download</a>
                 </li>
             </ul>
+        </nav>
+        <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
         </div>
     </div>
-</header>
+    </header>
+
+<div class="nav">
+    <div class="nav__content">
+        <ul class="nav__list">
+            <li class="nav__list-item active-nav"><a href="#adventages_section" class="hover-target">about</a></li>
+            <li class="nav__list-item"><a href="#features_section" class="hover-target">Features</a></li>
+            <li class="nav__list-item"><a href="#feedback_section" class="hover-target">How to Use</a></li>
+            <li class="nav__list-item"><a href="#section_download" class="hover-target">Download</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--<div class="section full-height over-hide">-->
+<!--    <div class="switch-wrap">-->
+<!--        <div id="switch" class="hover-target">-->
+<!--            <div id="circle"></div>-->
+<!--        </div>-->
+<!--        <p><span>dark</span> - <span>light</span></p>-->
+<!--    </div>-->
+<!--</div>-->
+
+<div class='cursor' id="cursor"></div>
+<div class='cursor2' id="cursor2"></div>
+<div class='cursor3' id="cursor3"></div>
+
+
+<!--<header class="header">-->
+<!--    <div class="container">-->
+<!--        <div class="d_flex">-->
+<!--&lt;!&ndash;            <a href="#"><img src="images/logo_richard.svg" alt="logo"></a>&ndash;&gt;-->
+<!--&lt;!&ndash;            <nav>&ndash;&gt;-->
+<!--&lt;!&ndash;            <ul class="nav_menu">&ndash;&gt;-->
+<!--&lt;!&ndash;                <li>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <a href="#">About</a>&ndash;&gt;-->
+<!--&lt;!&ndash;                </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                <li>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <a href="#">Features</a>&ndash;&gt;-->
+<!--&lt;!&ndash;                </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                <li>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <a href="#">How to Use</a>&ndash;&gt;-->
+<!--&lt;!&ndash;                </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                <li>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <a href="#">Download</a>&ndash;&gt;-->
+<!--&lt;!&ndash;                </li>&ndash;&gt;-->
+<!--&lt;!&ndash;            </ul>&ndash;&gt;-->
+<!--&lt;!&ndash;            </nav>&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</header>-->
 
 <section class="first_section">
     <div class="container">
@@ -70,7 +134,7 @@
     </div>
 </section>
 
-<section class="advantages_section">
+<section id="adventages_section" class="advantages_section">
     <div class="container">
 
         <div class="d_flex wrap_description">
@@ -121,7 +185,7 @@
     </div>
 </section>
 
-<section class="statistics_section">
+<section id="features_section" class="features_section">
     <div class="container">
         <div class="d_flex m-bottom">
             <div class="options">
@@ -147,27 +211,32 @@
                 </div>
             </div>
         </div>
-        <div class="d_flex wrap_statistics">
-            <div class="options statistics">
-                <h4>+12k</h4>
-                <h3>Nibh Elit Tristique</h3>
-            </div>
-            <div class="options statistics">
-                <h4>84</h4>
-                <h3>Aenean Condimentum</h3>
-            </div>
-            <div class="options statistics">
-                <h4>3,07</h4>
-                <h3>Quam Inceptos</h3>
-            </div>
-            <div class="options statistics">
-                <h4>24h</h4>
-                <h3>Ullamcorper</h3>
-            </div>
-        </div>
+
     </div>
 </section>
-<section class="feedback_section">
+    <section class="statistics_section">
+    <div class="container">
+    <div class="d_flex wrap_statistics">
+    <div class="options statistics">
+        <h4>+12k</h4>
+        <h3>Nibh Elit Tristique</h3>
+    </div>
+    <div class="options statistics">
+        <h4>84</h4>
+        <h3>Aenean Condimentum</h3>
+    </div>
+    <div class="options statistics">
+        <h4>3,07</h4>
+        <h3>Quam Inceptos</h3>
+    </div>
+    <div class="options statistics">
+        <h4>24h</h4>
+        <h3>Ullamcorper</h3>
+    </div>
+</div>
+</div>
+</section>
+<section  id="feedback_section"class="feedback_section">
     <div class="container">
         <div class="d_flex wrap_description">
             <div class="box_description_hamburger">
@@ -244,7 +313,7 @@
 </section>
 <section class="section_phones">
 </section>
-<section class="section_download">
+<section id="section_download" class="section_download">
     <div class="container">
         <h3>Ready to get started?</h3>
         <div class="links">

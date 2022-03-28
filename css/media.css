@@ -2,6 +2,7 @@
     .container{
         width: 930px;
     }
+
     .img-box_first{
         display: none;
     }
@@ -103,6 +104,19 @@
 @media only screen and (max-width: 768px) {
     .container{
         width: 690px;
+    }
+    .nav_menu{
+        display: none;
+
+    }
+    .nav-but-wrap{
+        display: inline-block;
+        margin: 0 ;
+        padding: 0;
+        right: 10%;
+    }
+    .menu-icon{
+        position: fixed;
     }
     .img-box_first{
         display: none;

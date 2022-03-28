@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 /* обнуление*/
 body {
     font-family: 'Gothic A1', sans-serif;
@@ -176,10 +179,13 @@ li {
 .m-b_0{
     margin-bottom: 0;
 }
-
+/*/////////////////////////////////////ADVANTAGES_SECTION//////////////////////////////*/
+.features_section{
+    padding: 79px 0px 0px;
+}
 /*/////////////////////////////////////ADVANTAGES_SECTION//////////////////////////////*/
 .statistics_section{
-    padding: 79px 0px 80px;
+    padding: 0px 0px 80px;
 }
 .options{
     max-width: 371px;
@@ -314,7 +320,7 @@ width: 100%;
 /*/////////////////////////////////////ADVANTAGES_SECTION//////////////////////////////*/
 .section_download{
     padding: 165px 0 155px;
-    background:url("../images/Frame.png") no-repeat center/cover;
+    background:url("../images/Frame (1).jpg") no-repeat center/cover;
 }
 .section_download .container h3{
     font-size: 38px;
