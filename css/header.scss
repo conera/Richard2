@@ -1,0 +1,86 @@
+$main_font:'Gothic A1', sans-serif;
+
+html {
+  scroll-behavior: smooth;
+}
+/* обнуление*/
+body {
+  font-family: $main_font;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+div, p, input, button, form, span, a, ul, li {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+
+.container {
+  width: 1230px;
+  margin: 0 auto;
+}
+
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+/*/////////////////////////////////////HEADER//////////////////////////////*/
+.header {
+  padding: 29px 0px 0px;
+  position: absolute;
+  width: 100%;
+
+}
+
+.nav_menu {
+  display: flex;
+
+  a {
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 20px;
+    transition: 0.2s;
+
+    &:hover {
+      color: #00FF66;
+    }
+  }
+}
+
+.nav_menu{
+  li{margin-left: 15px;
+    margin-right: 15px;}
+}
+
+.nav_menu{
+  li{
+  &:nth-child(1) {
+    margin-left: 0;}
+}
+}
+
+.nav_menu{
+  li {
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
