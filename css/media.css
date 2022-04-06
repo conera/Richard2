@@ -109,12 +109,12 @@
         display: none;
 
     }
-    .nav-but-wrap{
-        display: inline-block;
-        margin: 0 ;
-        padding: 0;
-        right: 10%;
-    }
+    /*.nav-but-wrap{*/
+    /*    display: inline-block;*/
+    /*    margin: 0 ;*/
+    /*    padding: 0;*/
+    /*    right: 10%;*/
+    /*}*/
     .menu-icon{
         position: fixed;
     }
