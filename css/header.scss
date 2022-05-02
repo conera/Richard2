@@ -2,6 +2,7 @@ $main_font:'Gothic A1', sans-serif;
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 /* обнуление*/
 body {
@@ -47,7 +48,6 @@ li {
   padding: 29px 0px 0px;
   position: absolute;
   width: 100%;
-
 }
 
 .nav_menu {
